@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+
+import AppointmentList from './Features/Appointments/AppointmentList';
+import AppointmentForm from './Features/Appointments/AppointmentForm';
+import AppointmentByDoctor from './Features/Appointments/AppointmentByDoctor';
+import ViewAppointmentsBypatient from './Features/Appointments/ViewAppointmentsBypatient';
+import CreateAvDctor from './Features/Appointments/Availability/CreateAvDctor';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      
+        <AppointmentByDoctor />
+
     </div>
   );
 }

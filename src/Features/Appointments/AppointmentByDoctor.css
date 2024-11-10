@@ -1,0 +1,85 @@
+.appointment-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.doctor-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #777;
+}
+
+.success-message {
+    color: #4CAF50;
+    text-align: center;
+    font-weight: bold;
+}
+
+.appointment-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.appointment-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.appointment-item p {
+    margin: 5px 0;
+}
+
+.no-appointments {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+    font-size: 18px;
+}

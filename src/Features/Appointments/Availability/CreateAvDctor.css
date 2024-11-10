@@ -1,0 +1,73 @@
+.availability-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+select, input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.doctor-details {
+    background-color: #e9f5ff;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.doctor-details p {
+    margin: 5px 0;
+}
+
+.weekdays-container {
+    margin-top: 15px;
+}
+
+.weekdays-container p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.day-checkbox {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
